@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Droply — Support</title>
+  <meta name="description" content="Support and help for Droply, the water-tracking app." />
+  <style>
+    :root {
+      --bg: #0a0f1a;
+      --bg-2: #0f1626;
+      --card: #131c30;
+      --border: #1f2c45;
+      --text: #eaf2ff;
+      --muted: #93a4c4;
+      --cyan: #34c8ff;
+      --cyan-soft: rgba(52, 200, 255, 0.12);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(1200px 600px at 50% -10%, #122038 0%, var(--bg) 55%) fixed;
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+      padding: 0 20px 80px;
+    }
+    .wrap { max-width: 680px; margin: 0 auto; }
+    header { text-align: center; padding: 72px 0 40px; }
+    .logo {
+      width: 76px; height: 76px; margin: 0 auto 20px;
+      display: grid; place-items: center;
+      background: var(--cyan-soft);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+    }
+    .logo svg { width: 40px; height: 40px; }
+    h1 { font-size: 34px; letter-spacing: -0.02em; }
+    .tagline { color: var(--muted); margin-top: 8px; font-size: 17px; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      margin-top: 20px;
+    }
+    h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--cyan); margin-bottom: 16px; }
+    .contact a {
+      display: inline-flex; align-items: center; gap: 10px;
+      color: var(--text); text-decoration: none; font-size: 18px; font-weight: 600;
+    }
+    .contact a:hover { color: var(--cyan); }
+    .contact p { color: var(--muted); font-size: 15px; margin-top: 8px; }
+    .faq-item { border-top: 1px solid var(--border); padding: 18px 0; }
+    .faq-item:first-of-type { border-top: none; padding-top: 0; }
+    .faq-item:last-of-type { padding-bottom: 0; }
+    .faq-q { font-weight: 600; font-size: 16px; margin-bottom: 6px; }
+    .faq-a { color: var(--muted); font-size: 15px; }
+    footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 40px; }
+    footer a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2.5C12 2.5 5 10 5 15a7 7 0 1 0 14 0c0-5-7-12.5-7-12.5Z" fill="#34c8ff"/>
+        </svg>
+      </div>
+      <h1>Droply Support</h1>
+      <p class="tagline">Help, answers, and how to reach us.</p>
+    </header>
+
+    <section class="contact">
+      <h2>Contact us</h2>
+      <a href="mailto:ritapply@gmail.com?subject=Droply%20Support">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#34c8ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+        ritapply@gmail.com
+      </a>
+      <p>We read every message and usually reply within 1–2 business days.</p>
+    </section>
+
+    <section>
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">How do I log water?</div>
+        <div class="faq-a">Open the Today tab and tap the log button. Each tap adds water toward your daily goal and earns droplets toward your lifetime total.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">What are tiers and droplets?</div>
+        <div class="faq-a">Every milliliter you log earns droplets that never reset. As your lifetime droplets grow you unlock new tiers on the Journey tab — from a shot glass all the way up to a dam.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">How does the streak work?</div>
+        <div class="faq-a">Log at least once on a calendar day to keep your streak alive. Miss a day and a freeze token (you earn one every 7-day streak, up to 3) will protect it. Without a token, the streak resets.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Can I switch between ml and fl oz?</div>
+        <div class="faq-a">Yes. Droply supports both metric (ml/L) and imperial (fl oz/gal) units. Your preference is saved automatically.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Will I lose my progress?</div>
+        <div class="faq-a">Your progress is stored locally on your device. Lifetime droplets and tiers never reset on their own — only today's total resets each day. Because the data lives on your device, deleting the app removes it, but a full device backup (iCloud or Finder) restores it when you set up a new iPhone.</div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Droply &middot; Made with 💧 &middot; <a href="mailto:ritapply@gmail.com">ritapply@gmail.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
